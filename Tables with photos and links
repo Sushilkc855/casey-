@@ -1,0 +1,64 @@
+<!DOCTYPE html> 
+<html>
+ <head>
+	<title> Tables </title> <!--Title of the page will be Tables which appers on the tab. -->
+ </head>
+
+<body>
+	<style> <!-- a little of css-->
+    
+	table, th, td{      
+  		border: 1px solid black;
+  		
+		}
+		th, td {
+	    padding: 15px;
+        text-align: left;
+		}    <!--Tags that this style will apply to -->
+	
+	</style>
+
+
+<table style="width:100%">
+  <tr>
+    <th>Photo</th>
+    <th>Name</th> 
+    <th>Country</th>
+    <th> Phone Number </th>
+  </tr>
+  
+  <tr>
+    <td> <img src= "https://pngimg.com/uploads/tom_cruise/tom_cruise_PNG29.png" alt= "damn" height="50px" width="50px" > </td>
+    <td> <a href="https://sv.wikipedia.org/wiki/Tom_Cruise" target="_blank"> Tom Cruise </a></td>
+    <td>USA</td>
+    <td> 076454354</td>
+  </tr>
+  <tr>
+   
+  <tr>
+    <td> <img src= "https://pngimg.com/uploads/tom_cruise/tom_cruise_PNG29.png" alt= "damn" height="50px" width="50px" > </td>
+    <td> <a href="https://sv.wikipedia.org/wiki/Tom_Cruise" target="_blank"> Tom Cruise </a></td>
+    <td>USA</td>
+    <td> 076454354</td>
+  </tr>
+  
+  <tr>
+    <td> <img src= "https://pngimg.com/uploads/tom_cruise/tom_cruise_PNG29.png" alt= "damn" height="50px" width="50px" > </td>
+    <td> <a href="https://sv.wikipedia.org/wiki/Tom_Cruise" target="_blank"> Tom Cruise </a></td>
+    <td>USA</td>
+    <td> 076454354</td>
+  </tr>
+
+  <tr>
+    <td> <img src= "https://pngimg.com/uploads/tom_cruise/tom_cruise_PNG29.png" alt= "damn" height="50px" width="50px" > </td>
+    <td> <a href="https://sv.wikipedia.org/wiki/Tom_Cruise" target="_blank"> Tom Cruise </a></td>
+    <td>USA</td>
+    <td> 076454354</td>
+  </tr>
+  
+</table>
+
+
+</body>
+
+</html>
