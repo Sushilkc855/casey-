@@ -6,7 +6,7 @@
   <meta name="author" content="Sushil KC">
   <title>Random Title</title> <!-- Tittle of the page that shows on the tad bar. -->
   <link rel="stylesheet" href="TributeChad.css"> <!-- Connects the css file to this html file.  -->
-  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen. -->
+  <metra name="viewport" content="width=device-width, initial-scale=1"> <!-- The viewport varies with the device, and will be smaller on a mobile phone than on a computer screen. -->
 
 
   <style>
@@ -70,6 +70,68 @@
   <img src= "https://c.wallhere.com/photos/b9/24/1920x1080_px_Black_Panther-1210660.jpg!d" alt= "A black panther picture " >
   <img src= " https://wallpaperboat.com/wp-content/uploads/2020/06/03/42404/black-panther-06.jpg" alt= "A black phanter photo" >
 
+  <div class="container">
+
+     <div class="character">
+         <img class="character-img" src="https://c.wallhere.com/photos/b9/24/1920x1080_px_Black_Panther-1210660.jpg!d"/>
+         <div class="character-details">
+             <div>
+                 <h4>Rick Sanchez</h4>
+             </div>
+             <p class="character-description">Um cientista alcoólatra de 70 anos extremamente inteligente que é capaz de construir máquinas...</p>
+            <a id="tribute-link" href="https://pt.wikipedia.org/wiki/Rick_and_Morty" class="read-link" target="_blank">Read More</a>
+
+
+
+         </div>
+     </div>
+     <div class="character">
+                     <img class="character-img" src="https://geovanipn.github.io/freecodecamp-responsive-web-design-certification/tribute-page/assets/images/morty.png"/>
+                     <div class="character-details">
+                         <h4>Morty Smith</h4>
+                         <p class="character-description">Neto facilmente influenciável e com dificuldades escolares de 14 anos de Rick, parece ser a quem este demonstra...</p>
+                         <a href="https://pt.wikipedia.org/wiki/Rick_and_Morty" class="read-link" target="_blank">Read More</a>
+                     </div>
+                 </div>
+            <style>
+
+            .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, 500px);
+      grid-template-rows: 1fr;
+      justify-content: space-evenly;
+      grid-row-gap: 70px;
+      grid-column-gap: 50px;
+      margin: 50px 200px 200px 200px;
+  }
+
+            .character-img {
+    width: 500px;
+    height: 500px;
+    border-bottom: 2px solid #381C10;
+}
+
+.character {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #381C10;
+}
+
+.character-details {
+    height: auto;
+    width: 100%;
+}
+
+.character-description {
+    font-size: 35px;
+    text-align: left;
+    margin: 0px;
+    padding: 20px;
+}
+
+            </style>
 
  </body>
 </html>
