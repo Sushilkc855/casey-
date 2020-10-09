@@ -1,4 +1,53 @@
-/*body {
- background-image: url("https://wallpapercave.com/wp/wp4455161.jpg");
- background-color: #cccccc;
+.fixed-bg {
+  background-image: url("https://wallpapercave.com/wp/wp4455161.jpg");
+  min-height: 550px;  /*The min-height property defines the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
+  background-attachment: fixed;  /* A background-image that will not scroll with the page (fixed): */
+  background-position: center; /* The background-position property sets the starting position of a background image.*/
+  background-repeat: no-repeat; /* The backgroud image won't repeat */
+  background-size: cover;  /*  */
 }
+
+.centered {
+  position:absolute; /*The element is positioned relative to its first positioned (not static) ancestor element */
+  top: 35%;  /* 35% form top of the background img. */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:snow;
+  font-size: 30px;  /*size of the text */
+  }
+
+
+.container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, 300px); /* Width and height for the box */
+        justify-content: space-evenly;
+        grid-row-gap: 30px; /* gap between row  */
+        grid-column-gap: 30px;  /* gap between column */
+        margin: 50px 50px 50px 50px;  /*margin outter layer top, left, botten, right */
+    }
+
+    .character-img {
+      width: 300px;
+
+      border-bottom: 2px solid #381C10;
+  }
+
+  .character {
+     width: 100%;
+    /*  height: 100%; */
+      border-radius: 5px;
+      border-style: solid;
+      border-color: #381C10;
+  }
+
+  .character-details {
+      height: auto;
+      width: 100%;
+  }
+
+  .character-description {
+      font-size: 15px;
+      text-align: left;
+      margin: 0px;
+      padding: 20px;
+  }
