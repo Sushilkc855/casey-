@@ -1,0 +1,137 @@
+body{
+   background-color: #EEEEEE; /*rgba(0,0,0,0) ; #EEEEEE */
+   margin: 0px;
+   margin-right: 0px;
+   margin-left: 0px;
+ }
+/*
+ h2{
+   color: snow;
+ }
+*/
+.fixed-bg {
+  background-image: url("../Pictures/Background.jpg");
+  min-height: 550px;  /*The min-height property defines the minimum height of an element. If the content is smaller than the minimum height, the minimum height will be applied. */
+  background-attachment: fixed;  /* A background-image that will not scroll with the page (fixed): */
+  background-position: center; /* The background-position property sets the starting position of a background image.*/
+  background-repeat: no-repeat; /* The backgroud image won't repeat */
+  background-size: cover;  /*  */
+
+}
+
+.centered {
+  position:absolute; /*The element is positioned relative to its first positioned (not static) ancestor element. However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling. */
+  top: 35%;  /* 35% form top of the background img. */
+  left: 50%;
+  transform: translate(-50%, -50%); /*x, and y */
+  color:snow;
+  font-size: 30px;  /*size of the text */
+  }
+
+.aboutsection{
+text-align: center; /* text in center  */
+border: 2px;  /* size of the order  */
+border-color: black; /* color of the border  */
+border-style: solid;  /* solid border  */
+margin-top: 3%;  /* ytterst sida margin top. */
+/*background-color:  #1F1F1F;
+color: snow; */
+
+
+}
+
+.header{
+  text-align: center;
+  padding-top: 1%;
+}
+
+.container {
+        display: grid;    /*The CSS Grid Layout Module offers a grid-based layout system,
+        with rows and columns, making it easier to design web pages without having to use floats and positioning. */
+        grid-template-columns: repeat(auto-fit, 300px); /* Width and height for the box */
+       justify-content: space-evenly;  /*space evenly between content */
+        grid-row-gap: 30px; /* gap between row  */
+        grid-column-gap: 30px;  /* gap between column */
+        margin: 40px 40px 40px 40px;  /*margin outter layer top, left, botten, right */
+
+    }
+
+    .character-img {
+     width: 300px;   /* width of the pictures same as the columns */
+        height: 200px;
+      border-bottom: 2px solid #381C10;
+  }
+
+  .character {
+     width: 100%;
+    /*  height: 100%; */
+      border-radius: 5px;  /*round corners  */
+      border-style: solid;  /* it will be solid so you can see  */
+      border-color: #381C10;
+     /* background-color: #1F1F1F;
+      color: snow;*/
+
+  }
+
+.character:hover{
+    background-color: #dedede ;
+    color: black;
+}
+
+ /*.character-details { height: auto; width: 100%;  }  */
+
+  .character-description {  /*.character-details { height: auto; width: 100%;  }  */
+      font-size: 18px;   /* text size  */
+    /* text-align: left;  */
+      margin: 0px;
+      padding: 20px; /* padding between text and the borders */
+  }
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.Button {
+  background-color: snow;  
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  padding: 15px 32px;
+  text-align: center;
+  
+  font-size: 16px;
+  margin-left: 45%;
+  cursor: pointer;
+}
+
+.Button:hover{
+    background-color: black;
+    color: snow;
+}
+
+
+
+
+
+
+
+
+/*
+.album{
+  
+background-image: url("https://www.wallpapertip.com/wmimgs/3-33475_hd-wallpaper-black-panther.jpg");
+  background-repeat: no-repeat;
+ background-position: center;
+  background-size: 100% ;
+  min-height: 650px;
+  color: snow;
+  margin-bottom: 2%;
+
+}
+*/
+.footer {
+  text-align: center;
+  padding: 1%;
+  background-color: grey;
+}
