@@ -88,14 +88,14 @@ color: snow; */
   }
 
 .dark-mode {
-  background-color: black;
+  background-color: black; /*background changes to black and all the texts changes to white so you can see.  */
   color: white;
 }
 
 .Button {
   background-color: snow;  
   border: 5px;
-  border-style: solid;
+  border-style: solid; /* border will be solid so you can see   */
   border-color: black;
   padding: 15px 32px;
   text-align: center;
@@ -105,31 +105,11 @@ color: snow; */
   cursor: pointer;
 }
 
-.Button:hover{
+.Button:hover{. /* when you hover over the button is changes to black */
     background-color: black;
     color: snow;
 }
 
-
-
-
-
-
-
-
-/*
-.album{
-  
-background-image: url("https://www.wallpapertip.com/wmimgs/3-33475_hd-wallpaper-black-panther.jpg");
-  background-repeat: no-repeat;
- background-position: center;
-  background-size: 100% ;
-  min-height: 650px;
-  color: snow;
-  margin-bottom: 2%;
-
-}
-*/
 .footer {
   text-align: center;
   padding: 1%;
