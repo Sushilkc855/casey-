@@ -2,12 +2,14 @@
 <html>
 <head>
 <style>
-    
+
 .grid-container {
   display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
+
 }
 
 .grid-item {
@@ -19,20 +21,34 @@
 .item1 {
   grid-column: 1 / span 8;
   grid-row: 1;
-    
+
 }
 
+
+.item8{
+  grid-column: 7 / span 2;
+  grid-row: 2;
+}
 
 .item10 {
   grid-column: 1 / span 3;
   grid-row: 3;
 }
-    
+
 .item11 {
    grid-column: 4 / span 5;
-  grid-row: 3;      
+  grid-row: 3;
 }
-    
+.goat{
+  position: absolute;
+ bottom: 25%;
+ left: -13%;
+
+ }
+ .bild{
+   border-radius: 50%;
+ }
+
 </style>
 </head>
 <body>
@@ -42,19 +58,25 @@
 <div class="grid-container">
   <div class="grid-item item1">
       <img src="https://wallpaperaccess.com/full/506796.jpg" alt="Trulli" width="100%" height="500">
+      <div class="goat">
+        <img class="bild" src="https://cdn.pixabay.com/photo/2019/01/05/11/36/goat-3914939_960_720.jpg" alt="Trulli" width="35%" height="250">
+
+      </div>
     </div>
- <div class="grid-item item2"></div> 
-  <div class="grid-item item3"></div> 
+ <div class="grid-item item2"></div>
+  <div class="grid-item item3"></div>
   <div class="grid-item item4">Timeline</div>
   <div class="grid-item item5">about</div>
   <div class="grid-item item6">frends</div>
-  <div class="grid-item item7">Photos</div>  
+  <div class="grid-item item7">Photos</div>
   <div class="grid-item item8">more</div>
   <div class="grid-item item9"></div>
   <div class="grid-item item10">10</div>
   <div class="grid-item item11">11</div>
-    
+
 </div>
+
+
 
 <p>Direct child elements(s) of the grid container automatically becomes grid items.</p>
 
@@ -62,3 +84,4 @@
 
 </body>
 </html>
+
